@@ -28,3 +28,6 @@ git checkout -b "nome do arquivo"
 # para verificar ou voltar para branch o comado é
 git checkout "nome da branch" main
 
+# o proximo passo é utilizar o comado marge para ajuntar as brenche "main com a freme"
+git checkout main 
+git marge  freme 

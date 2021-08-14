@@ -1,4 +1,4 @@
-class Escola{
+class Tela{
 
     public void exibir(){
     
