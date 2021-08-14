@@ -31,3 +31,12 @@ git checkout "nome da branch" main
 # o proximo passo é utilizar o comado marge para ajuntar as brenche "main com a freme"
 git checkout main 
 git marge  freme 
+git push origin main
+
+# para fazer um clone em alguns projeto no git o comando é  "https://github.com/RRobDaltro/Projeto1.git"
+
+git clone link.git 
+
+#  para  pegar  alteraçãos  feita no github utilizamos o comado 
+cd "nome da posta 
+git pull 
