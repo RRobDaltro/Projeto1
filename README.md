@@ -1,14 +1,24 @@
 
-ola este projeto da dica  sobre o git
-git --version   
-git init  - inicializar um repositoria vazio
- alteração 
-git add - "nome do arquivo"  para um aquivo especifico  ou ."ponto" para enviar todos os arquivos : este comado  mando o arquivo para  area de start "é famozo comit"
+# ola este projeto da dica  sobre o git
+git --version 
+# inicializar um repositoria vazio
+git init 
+# "nome do arquivo"  para um aquivo especifico  ou ."ponto" para enviar todos os arquivos : este comado  mando o arquivo para  area de start "é famozo comit"
+git add 
 
-git status -este comado exibe as aquivo comitado
+# este comado exibe as aquivo comitado
+git status 
 
-alteração do aquivo:
+# esta comado faz o envio do arquivo  
+git commit -m "primeiro comit" 
 
-git commit -m "primeiro comit" -esta comado faz o envio do arquivo  
+# este comado é para remonear o a branch que eu estou utilizando 
+git branch -m" main" 
 
-git branch -m" main" - este comado é para remonear o a branch que eu estou utilizando 
+ # este comado faz  a conecção do meu repasitorio git local  com o do githib cujo nome é origin  e so utilizamos este comado uma unica fez por projeto criado
+
+ git remote add origin https://github.com/RRobDaltro/Projeto1.git
+
+# esta comado  faz o empurrao do meu commit ja realizado com o meu repositorio github 
+
+git push -u origin main
