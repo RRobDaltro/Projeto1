@@ -20,5 +20,11 @@ git branch -m" main"
  git remote add origin https://github.com/RRobDaltro/Projeto1.git
 
 # esta comado  faz o empurrao do meu commit ja realizado com o meu repositorio github 
-
+ git branch -M main
 git push -u origin main
+
+# para criar uma nova branch: branch é uma nova ramificação no projeto normalmento uma fitnion tais como um botao para o projeto com o comado 
+git checkout -b "nome do arquivo"
+# para verificar ou voltar para branch o comado é
+git checkout "nome da branch" main
+
